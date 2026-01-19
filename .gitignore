@@ -1,0 +1,315 @@
+################################################################################
+#              Discord Quest Tracker (Safe) - .gitignore                       #
+#                                                                              #
+#  This prevents unnecessary files from being committed to the repository      #
+#                                                                              #
+#  Note: This is a SAFE, read-only script with no credentials needed!         #
+################################################################################
+
+################################################################################
+# 💻 Operating System Files
+################################################################################
+
+# === macOS ===
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# === Windows ===
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# === Linux ===
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+
+################################################################################
+# 📝 IDE and Editor Files
+################################################################################
+
+# === Visual Studio Code ===
+.vscode/
+*.code-workspace
+.history/
+
+# === JetBrains IDEs (WebStorm, IntelliJ, PHPStorm, etc.) ===
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+.idea_modules/
+
+# === Sublime Text ===
+*.sublime-project
+*.sublime-workspace
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+
+# === Atom ===
+.atom/
+
+# === Vim ===
+[._]*.s[a-v][a-z]
+[._]*.sw[a-p]
+[._]s[a-rt-v][a-z]
+[._]ss[a-gi-z]
+[._]sw[a-p]
+Session.vim
+Sessionx.vim
+.netrwhist
+tags
+[._]*.un~
+
+# === Emacs ===
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+
+################################################################################
+# 📦 Node.js (if you add npm packages later)
+################################################################################
+
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Package manager lock files
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+
+################################################################################
+# 🏗️ Build and Output Directories
+################################################################################
+
+# Build output
+dist/
+build/
+out/
+.output/
+
+# Compiled/minified files
+*.min.js
+*.bundle.js
+*.compiled.js
+
+
+################################################################################
+# 📄 Logs and Debugging
+################################################################################
+
+# Log files
+*.log
+logs/
+*.log.*
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+
+################################################################################
+# 🧪 Testing
+################################################################################
+
+# Test coverage
+coverage/
+*.lcov
+.nyc_output/
+.coverage/
+
+# Jest
+.jest/
+jest-results/
+
+
+################################################################################
+# 💾 Temporary Files
+################################################################################
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*.bak
+*.backup
+
+# Cache directories
+.cache/
+.parcel-cache/
+.npm/
+
+
+################################################################################
+# 📚 Documentation Drafts
+################################################################################
+
+# Draft and work-in-progress files
+*-draft.md
+*-wip.md
+draft-*
+WIP-*
+TODO-private.md
+
+
+################################################################################
+# 📦 Archives and Compressed Files
+################################################################################
+
+# Archives
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+*.gz
+*.bz2
+
+
+################################################################################
+# 🔧 Git and Version Control
+################################################################################
+
+# Git patch files
+*.patch
+*.diff
+*.orig
+
+# Backup files from merge conflicts
+*.BACKUP.*
+*.BASE.*
+*.LOCAL.*
+*.REMOTE.*
+
+
+################################################################################
+# 🗄️ Database Files (if you add any later)
+################################################################################
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+*.sql
+
+
+################################################################################
+# 🎨 Assets and Media (optional)
+################################################################################
+
+# Large media files (uncomment if needed)
+# *.mp4
+# *.mov
+# *.avi
+# *.png
+# *.jpg
+# *.jpeg
+# *.gif
+
+
+################################################################################
+# 📊 Miscellaneous
+################################################################################
+
+# OS generated files
+.Spotlight-V100
+.Trashes
+
+# Python (if you add Python scripts later)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments (if you add them)
+venv/
+env/
+ENV/
+
+# Misc
+*.bak
+*.swp
+*~
+
+
+################################################################################
+# 🔐 Optional - Config Files (This script doesn't need them!)
+################################################################################
+
+# Note: This is a SAFE, read-only script that doesn't use tokens or credentials
+# These are here just in case you decide to add configuration later
+
+# Config files (optional)
+config.json
+.env
+.env.local
+.env.*.local
+
+
+################################################################################
+#                       📝 IMPORTANT NOTES                                     #
+################################################################################
+#                                                                              #
+#  This script is SAFE and doesn't require any sensitive credentials!         #
+#  Unlike automation scripts, this tracker:                                   #
+#                                                                              #
+#  ✅ Doesn't use Discord tokens                                               #
+#  ✅ Doesn't store any credentials                                            #
+#  ✅ Doesn't need configuration files                                         #
+#  ✅ Is completely read-only                                                  #
+#  ✅ Is 100% safe for your main account                                       #
+#                                                                              #
+################################################################################
+
+################################################################################
+#                            END OF .gitignore                                 #
+################################################################################
